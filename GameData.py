@@ -1,12 +1,5 @@
 from random import randint
 
-"""self.field = [
-            [Cell(4), Cell(8), Cell(4), Cell(2)],
-            [Cell(2), Cell(16), Cell(32), Cell(4)],
-            [Cell(8), Cell(32), Cell(16), Cell(2)],
-            [Cell(32), Cell(128), Cell(32), Cell(16)]
-]"""
-
 
 class Cell:
     def __init__(self, number=0):
